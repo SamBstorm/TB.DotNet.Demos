@@ -109,27 +109,45 @@ namespace VSApp.First
 
             #region Struct vs Ref
 
-            int i1 = 5;
-            int i2 = i1;
+            //int i1 = 5;
+            //int i2 = i1;
 
-            Console.WriteLine(i1); //5
-            Console.WriteLine(i2); //5
+            //Console.WriteLine(i1); //5
+            //Console.WriteLine(i2); //5
 
-            i2 = 7;
+            //i2 = 7;
 
-            Console.WriteLine(i1); //5
-            Console.WriteLine(i2); //7
+            //Console.WriteLine(i1); //5
+            //Console.WriteLine(i2); //7
 
-            string s1 = "Une chaine";
-            string s2 = s1;
+            //string s1 = "Une chaine";
+            //string s2 = s1;
 
-            Console.WriteLine(ReferenceEquals(s1,s2));
+            //Console.WriteLine(ReferenceEquals(s1,s2));
 
-            s2 = "Une autre chaine";
+            //s2 = "Une autre chaine";
 
-            Console.WriteLine(ReferenceEquals(s1,s2));
+            //Console.WriteLine(ReferenceEquals(s1,s2));
 
 
+            #endregion
+
+            #region Conversion
+            //bool b = false;
+            //string s = b.ToString();
+            //s = "True";
+            //DateTime dt = Convert.ToDateTime("01-09-1970");
+            ////3 méthodes d'utilisatation du tryParse()
+            
+            ////Déclaration extérieur
+            //int i; //= int.Parse(Console.ReadLine());
+            //bool b_Check_Parse = int.TryParse(Console.ReadLine(), out i);
+
+            ////Déclaration en interne
+            //b_Check_Parse = int.TryParse(Console.ReadLine(), out int y);
+
+            ////Omission de la valeur convertie
+            //b_Check_Parse = int.TryParse(Console.ReadLine(), out _);
             #endregion
 
             #region Fin Programme
