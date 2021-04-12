@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSApp.First", "VSApp.First\VSApp.First.csproj", "{78C0E1BE-FF12-4D1B-A833-02AD36E71F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSApp.ExoIntro", "VSApp.ExoIntro\VSApp.ExoIntro.csproj", "{52DD415B-8040-49E1-B79F-243ECD280C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSApp.ExoIntro", "VSApp.ExoIntro\VSApp.ExoIntro.csproj", "{52DD415B-8040-49E1-B79F-243ECD280C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSApp.Demos.Conditionnel", "VSApp.Demos.Conditionnel\VSApp.Demos.Conditionnel.csproj", "{3268B1F6-173B-4941-BB3F-D54353C2EE4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{52DD415B-8040-49E1-B79F-243ECD280C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52DD415B-8040-49E1-B79F-243ECD280C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52DD415B-8040-49E1-B79F-243ECD280C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3268B1F6-173B-4941-BB3F-D54353C2EE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3268B1F6-173B-4941-BB3F-D54353C2EE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3268B1F6-173B-4941-BB3F-D54353C2EE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3268B1F6-173B-4941-BB3F-D54353C2EE4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
