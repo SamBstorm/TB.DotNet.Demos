@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label>Choisissez : </label>
+        <select name="" id="select">
+            <option value="1">option 1</option>
+            <option value="2">option 2</option>
+            <option value="3">option 3</option>
+            <option value="4">option 4</option>
+        </select>
+        <div id="option"></div>
+
+        <h2>Contenu sans flag</h2>
+        <label>Executer<input type="radio" name="radio" id=""></label>
+        <label>Lire<input type="radio" name="radio" id=""></label>
+        <label>Ecrire<input type="radio" name="radio" id=""></label>
+
+        <h2>Contenu avec flag</h2>
+        <label>Executer<input type="checkbox" name="" id=""></label>
+        <label>Lire<input type="checkbox" name="" id=""></label>
+        <label>Ecrire<input type="checkbox" name="" id=""></label>
+        
+    </form>
+    <script>
+        document.getElementById("select").addEventListener("change",function(e){
+            console.log(e);
+            document.getElementById("option").innerHTML = e.target.value;
+        });
+    </script>
+</body>
+</html>
